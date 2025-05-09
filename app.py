@@ -3,8 +3,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Streamlit UI setup
-st.set_page_config(page_title="🧠 Python Code Assistant", layout="centered")
-st.title("🧠 Python Code Assistant")
+st.set_page_config(page_title="🧠 Friendly Python Assistant", layout="centered")
+st.title("🧠 Friendly Python Assistant")
 st.markdown("Generate Python code by describing your need in plain English.")
 
 # Load model and tokenizer
